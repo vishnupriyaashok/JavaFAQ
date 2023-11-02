@@ -20,6 +20,7 @@ public static void main(String args[]) {
 //	a=a+b;//10+4=14
 //	b=a-b;
 //	a=a-b;
+	
 //	System.out.println("value of a now is :"+ a );
 //System.out.println("value of b is :"+ b );
 	
