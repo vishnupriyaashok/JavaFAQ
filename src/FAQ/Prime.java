@@ -3,6 +3,24 @@ package FAQ;
 import java.util.Scanner;
 
 public class Prime {
+	public static void prime(int no) {
+		boolean isPrime = false;
+
+		for (int i = 2; i <= no / 2; i++) {
+			if (no % i == 0) {
+				isPrime = true;
+				break;
+			}
+		}
+
+		if (!isPrime) {
+			System.out.println("the given  is prime");
+		} else {
+			System.out.println("the given  is not prime");
+
+		}
+
+	}
 
 	public static void primeNo(int no) {
 		int count = 0;
