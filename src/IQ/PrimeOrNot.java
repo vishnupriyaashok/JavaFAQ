@@ -25,7 +25,7 @@ public class PrimeOrNot {
 		if(no==0||no==1) {
 			return false;
 		}
-		for(int i=2;i<no;i++) {
+		for(int i=2;i<no/2;i++) {
 			if(no%i==0) {
 				return false;
 			}

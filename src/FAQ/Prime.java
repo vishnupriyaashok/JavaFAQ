@@ -41,6 +41,26 @@ public class Prime {
 	}
 
 
+	public static boolean isPrime(int no){
+		if(no==0||no==1) {
+			return false;
+		}
+		for(int i=2;i<no/2;i++) {
+			if(no%i==0) {
+				return false;
+			}
+		}return true;
+	
+	}
+
+	public static void printAllPrime(int no) {
+		for(int i=2;i<no;i++) {
+			if(isPrime(i)) {
+				System.out.print(i+", ");
+			}
+		}
+	}
+
 
 	public static void main(String[] args) {
 

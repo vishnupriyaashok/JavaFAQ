@@ -25,7 +25,7 @@ public class Test2 {
 		if(no==0||no==1) {
 			return false;
 		}
-		for(int i=2;i<no;i++) {
+		for(int i=2;i<no/2;i++) {
 			if(no%i==0) {
 				return false;
 			}
@@ -34,7 +34,7 @@ public class Test2 {
 	}
 
 	public static void printAllPrime(int no) {
-		for(int i=2;i<no;i++) {
+		for(int i=2;i<=no;i++) {
 			if(isPrime(i)) {
 				System.out.print(i+", ");
 			}
